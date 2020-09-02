@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+ 
+
+
+  <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Latitude</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="dropdown">
+      <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Dropdown link
+      </a>
+     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <a class="dropdown-item" href="visualizations/temp.html">Max Temperature</a>
+         <a class="dropdown-item" href="visualizations/humidity.html">Humidity</a>
+        <a class="dropdown-item" href="visualizations/cloudiness.html">Cloudiness</a>
+        <a class="dropdown-item" href="visualizations/wind.html">Wind Speed</a>
+     </div>
+    </div>
+  </nav>
+</head>
+
+<body>
+<h1 style="color:teal">Summary: Latitude vs. X</h1>
+
+<div>
+<img src="https://vanderbilt.bootcampcontent.com/vanderbilt_coding_bootcamp/vu-nsh-data-pt-06-2020-u-c/-/blob/master/02-Homework/11-Web/Instructions/Resources/assets/images/Fig1.png" class="img-fluid" >
+</div>
+<p>
+  The purpose of this project is to analyze how weather changes as you get closer to the
+   equator.To accomplish this analysis,we first pulled the data from the OpenWeatherMap 
+   API to assemble the dataset on over 500 cities.
+</p>
+
+<p>
+  After assembling the data set, we used matplotlib to plot the various
+  aspects  of the weather vs latitude. Factors we looked into included:
+  temperature, cloudiness, windspeed, and humidity. The site  provides 
+  the source data and visualizations created as a part  of the analysis
+  , as well as explainations and describes any  trends  and correclations
+  witnessed.
+</p>
+
+</body>
+
+</html>
